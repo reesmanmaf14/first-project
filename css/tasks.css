@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    position: relative;
+}
+
+.main .sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    padding: 30px 0;
+    background-color: #3870d1;
+}
+
+.main .sidebar h2 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+ul li {
+    padding: 15px;
+    margin-left: 15px;
+}
+
+ul li a {
+    color: white;
+    display: block;
+}
+
+ul li a .fa {
+    width: 40px;
+    margin-left: 15px;
+}
+
+ul li a i {
+    margin-right: 12px;
+}
+
+.content {
+    margin-left: 280px;
+    margin-top: 50px;
+    font-size: 12px;
+    color: #292827;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 650px;
+    margin-left: 500px;
+    margin-top: 35px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-day i {
+    color: rgb(255, 204, 0);
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.reminder-icon {
+    margin-left: 350px;
+    color: rgb(255, 223, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.view-toggle {
+    display: flex;
+    gap: 10px;
+}
+
+.view-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.view-button:hover {
+    background-color: #eee;
+}
+
+.task-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#newTask {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.task-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#dueDate,
+#priority {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.progress-options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.circle-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.not-started {
+    background-color: gray;
+}
+
+.in-progress {
+    background-color: orange;
+}
+
+.completed {
+    background-color: green;
+}
+
+.circle-btn:hover {
+    opacity: 0.7;
+}
+
+#addTaskBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#addTaskBtn:hover {
+    background-color: #0056b3;
+}
+
+.footer-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 13px;
+}
+
+.sort-button {
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.sort-button:hover {
+    background-color: #eee;
+}
+
+.group-button {
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.group-button:hover {
+    background-color: #eee;
+}
+
+.suggestions-button {
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.suggestions-button:hover {
+    background-color: #eee;
+}
+
+#taskTable {
+    width: 900px;
+    border-collapse: collapse;
+    margin-left: 380px;
+    margin-top: 30px;
+}
+
+#taskTable th {
+    background-color: #84aaed;
+    padding: 10px;
+    text-align: left;
+}
+
+#taskTable td {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+#taskTable tr:hover {
+    background-color: #f9f9f9;
+}
+
+td .deleteTaskBtn {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+td .deleteTaskBtn:hover {
+    background-color: #c82333;
+}

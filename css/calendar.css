@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+body {
+    background-color: #F4F4F4;
+    display: flex;
+    overflow: hidden;
+
+}
+
+
+.main {
+    display: flex;
+    position: relative;
+}
+
+
+.main .sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    padding: 30px 0;
+    background-color: #3870d1;
+}
+
+
+.main .sidebar h2 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+ul li {
+    padding: 15px;
+    margin-left: 15px;
+    /*border-bottom: 1px solid rgba (0, 0, 0, 05);
+    border-top: 1px solid rgba (225, 225, 225, 0.05);*/
+}
+
+ul li a {
+    color: white;
+    font-size: 17px;
+    display: block;
+}
+
+ul li a .fa {
+    width: 40px;
+    margin-left: 15px;
+}
+
+ul li a i {
+    margin-right: 12px;
+}
+
+.content {
+    color: #292827;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
+h1 i {
+    width: 30px;
+}
+
+.cal-box {
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-left: 840px;
+    margin-top: 350px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+    background-color: #2196f3;
+    padding: 15px 20px;
+    color: white;
+}
+
+.head p {
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.head-1 {
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.left-icon {
+    float: left;
+    cursor: pointer;
+}
+
+.right-icon {
+    float: right;
+    cursor: pointer;
+}
+
+.days {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.d {
+    float: left;
+    width: 14.28%;
+    color: #8a8989;
+}
+
+.no {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.n {
+    float: left;
+    width: 14.28%;
+    color: #8a8989;
+    visibility: hidden;
+}
+
+.n-1 {
+    float: left;
+    width: 14.28%;
+    color: #444343;
+    font-weight: bold;
+}
+
+.active {
+    columns: #fff;
+    background-color: #2196f3;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.n-1:hover {
+    color: #2196f3;
+    cursor: pointer;
+}

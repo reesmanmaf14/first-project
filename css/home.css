@@ -1,0 +1,266 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     list-style: none;
+     text-decoration: none;
+     font-family: "Josefin Sans", sans-serif;
+ }
+
+ body {
+     background-color: #F4F4F4;
+ }
+
+
+ .main {
+     display: flex;
+     position: relative;
+ }
+
+
+ .main .sidebar {
+     position: fixed;
+     width: 250px;
+     height: 100%;
+     background-color: white;
+     padding: 30px 0;
+     background-color: #3870d1;
+ }
+
+
+ .main .sidebar h2 {
+     color: white;
+     text-align: center;
+     text-transform: capitalize;
+     margin-bottom: 30px;
+     font-size: 30px;
+ }
+
+ ul li {
+     padding: 15px;
+     margin-left: 15px;
+     /*border-bottom: 1px solid rgba (0, 0, 0, 05);
+    border-top: 1px solid rgba (225, 225, 225, 0.05);*/
+ }
+
+ ul li a {
+     color: white;
+     font-size: 17px;
+     display: block;
+ }
+
+ ul li a .fa {
+     width: 40px;
+     margin-left: 15px;
+ }
+
+ ul li a i {
+     margin-right: 12px;
+ }
+
+
+ .content {
+     color: #292827;
+     font-size: 12px;
+     font-family: "Roboto", sans-serif;
+     margin-top: 50px;
+     margin-left: 280px;
+ }
+
+ h1 i {
+     width: 30px;
+ }
+
+
+ .search {
+     float: right;
+     padding: 12px;
+     border: 1px solid #79787A;
+     border-radius: 20px;
+     margin-top: 50px;
+     margin-right: 30px;
+     font-size: 17px;
+     background-color: white;
+     height: 40px;
+ }
+
+ input {
+     background-color: white;
+     border: none;
+     padding: 10px;
+     flex: 1;
+     outline: none;
+     height: 10px;
+     color: black;
+     font-size: 13px;
+     font-family: "Roboto", sans-serif;
+ }
+
+ ::placeholder {
+     background-color: white;
+     font-size: 15px;
+     color: #9CA3AF;
+     font-family: helveticaneue-bold;
+   
+ }
+
+
+ .search.button {
+     background: none;
+     border: none;
+     cursor: pointer;
+     margin-top: -12px;
+     margin-right: -10px;
+     color: #2564CF;
+ }
+
+ .grid-container {
+     margin-left: 400px;
+ }
+
+
+
+
+ .search-container {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .search-bar {
+     width: 60%;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     font-size: 16px;
+ }
+
+
+ .search-container {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .search-bar {
+     width: 60%;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     font-size: 16px;
+ }
+
+ .home-layout {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 5px;
+     margin-left: 300px;
+     margin-top: 65px;
+ }
+
+
+ .quick-add {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     width: 360px;
+ }
+
+ .quick-add h2 {
+     font-size: 20px;
+     margin-bottom: 10px;
+     color: #0056b3;
+ }
+
+ .task-input {
+     width: 100%;
+     padding: 14px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     margin-bottom: 10px;
+ }
+
+ .due-date {
+     width: 48%;
+     padding: 5px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     margin-bottom: 12px;
+ }
+
+ .addBtn {
+     background-color: #007bff;
+     color: white;
+     padding: 10px 15px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ .addBtn:hover {
+     background-color: #0056b3;
+ }
+
+
+ .upcoming-tasks {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     width: 360px;
+
+ }
+
+ .upcoming-tasks h2 {
+     font-size: 20px;
+     margin-bottom: 10px;
+     margin-left: 12px;
+ }
+
+ .task-list {
+     list-style: none;
+     padding: 0;
+ }
+
+ .task-list li {
+     padding: 10px 0;
+     border-bottom: 1px solid #ddd;
+     font-size: 16px;
+ }
+
+ .task-list li span {
+     float: right;
+     color: #6b7280;
+ }
+
+
+ .progress-summary {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     width: 360px;
+ }
+
+ .progress-summary h2 {
+     font-size: 20px;
+ }
+
+ .progress-bar {
+     background-color: #e5e7eb;
+     border-radius: 5px;
+     width: 100%;
+     height: 20px;
+     margin-top: 13px;
+ }
+
+ .progress {
+     background-color: #3870d1;
+     height: 100%;
+     width: 50%;
+     border-radius: 5px;
+ }
+
+ .progress-summary p {
+     margin-top: 16px;
+     text-align: center;
+ }
